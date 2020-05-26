@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700,800,900');
+
+/*body {
+  font-family: 'Barlow';
+  font-size:16px;
+}*/
+
+td {
+  border-radius: 0 !important;
+}
+
+tr th {
+      font-weight: 500;
+}
+
+.timepicker {
+  max-width: 100px;
+  border-radius: 0;
+}
+
+.calendar{
+	color: #ccc7df;
+	font-size: 18px;
+}
+
+tr{
+	height: 90px;
+}
+
+thead{
+	color: #fff;
+	font-weight: 700;
+}
+
+/*不显示*/
+.bootstrap-datetimepicker-widget table td.old, .bootstrap-datetimepicker-widget table td.new{
+	color: #ccc7df;
+}
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover{
+	
+	background-color: transparent;
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover{
+	color: #5a5178;
+	background-color: transparent;
+}
+
+.bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover{
+	background-color: transparent;
+}
+
+.bootstrap-datetimepicker-widget table td span.active{
+	background-color: transparent;
+}
+
+.bootstrap-datetimepicker-widget table td span:hover{
+	background-color: transparent;
+	color: #5a5178;
+}
+
+.today{
+	color: #5a5178;
+}

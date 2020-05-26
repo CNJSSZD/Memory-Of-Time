@@ -1,0 +1,107 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+}
+
+.center{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #ccc;
+	height:100%;
+	width: 100%;
+	text-align: center;
+}
+
+header.masthead {
+  height: 100%;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+
+  z-index: 9999;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .site-heading {
+ /* padding: 200px 0 150px;*/
+  color: rgb(225, 225, 225);
+  opacity: 0.9;
+}
+
+@media only screen and (max-height: 462px) {
+  body{
+  	height: 462px;
+  }
+}
+
+header.masthead .site-heading {
+  text-shadow:3px 2px 10px #000;
+  text-align: center;
+
+}
+
+header.masthead .site-heading .arrow{
+	 height: 50px;
+	 margin-top: 5rem;
+	/* padding-bottom:10px;*/
+}
+
+header.masthead .site-heading .arrow img{
+	 height: 100%;
+
+}
+
+header.masthead .site-heading h1 {
+  font-size: 60px;
+  margin-top: 0;
+  color: rgb(159, 139, 191);
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+header.masthead .site-heading h3 {
+  font-size: 30px;
+  margin-top: 4rem;
+  font-weight: 700;
+ /* padding-top: 50px;*/
+  font-family: Microsoft JhengHei;
+}
+
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: block;
+  margin: 1rem 0 0;
+  font-family: Microsoft JhengHei;
+ 
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .site-heading h1{
+  	font-size: 90px;
+  }
+  header.masthead .site-heading h3 {
+    font-size: 50px;
+  }
+}
+
+
+.bottom{
+	z-index: 1
+}
